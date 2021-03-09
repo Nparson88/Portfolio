@@ -88,8 +88,9 @@ main {
   max-width: 100%;
   margin-left: 0px;
 }
+
 section{
-  
+  display: inline-block;
   margin: 50px; 
   padding: 20px;
 }
@@ -101,10 +102,14 @@ section{
   width: 100%;
 }
 main h1{
-  float: left;
-  display: flex;
   font-size: 50px;
   color:#343f52;
+}
+footer h1{
+  position: relative;
+  font-size: 50px;
+  color:#343f52;
+  bottom: 10px;
 }
 
 p{
@@ -112,6 +117,7 @@ p{
   flex-wrap: wrap;
   position: relative;
   font-size: 30px;
+float: right;
   color:#343f52;
 }
 aside{
@@ -120,15 +126,30 @@ aside{
   float: right;
   max-width: 75%;
 }
-.topImg{
+.top-image{
   max-width:75%;
   max-height: 75%;
 }
- section img{
+.middle-image{
    display: inline-block;
   max-width: 37.3%;
   max-height: 50%;
   padding: 10px;
+}
+.bottom-image{
+  display: inline-block;
+ max-width: 37.3%;
+ max-height: 50%;
+ padding: 10px;
+}
+.top-image:hover{
+    opacity: .5;
+  }
+.middle-image:hover{
+  opacity: .5; 
+}
+.bottom-image:hover{
+  opacity: .5;
 }
 
 footer ul li{
@@ -142,7 +163,9 @@ footer ul li{
   float: right;
   justify-content: space-between;
   margin: 10px;
-  padding: 10px;
+  padding-left: 100px;
+  text-align: center;
+  
 }
 .subtitle {
   position: relative;
@@ -156,4 +179,61 @@ footer ul li{
     font-size: 100px;
     background-color:black;
     padding: 20px;
+}
+.top {
+  position: relative;
+  color: #4a74e7; 
+}
+
+.top-image{
+  padding: 10px;
+}
+.top-image-text{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-size: 40px;
+    background-color:black;
+    padding: 10px;
+}
+.middle {
+  position: relative;
+  color: #4a74e7; 
+}
+
+.middle-left-text{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 40px;
+    background-color:black;
+    padding: 10px;
+}
+.middle-right-text{
+    position: absolute;
+    bottom: 30px;
+    right: 43%;
+    font-size: 40px;
+    background-color:black;
+    padding: 10px;
+}
+.bottom{
+  position: relative;
+  color: #4a74e7; 
+}
+.bottom-left-text{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 40px;
+  background-color:black;
+  padding: 10px;
+}
+.bottom-right-text{
+  position: absolute;
+  bottom: 30px;
+  right: 43%;
+  font-size: 40px;
+  background-color:black;
+  padding: 10px;
 }
