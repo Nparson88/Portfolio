@@ -200,6 +200,8 @@ footer ul li{
 }
 
 .middle-left-text{
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -210,7 +212,7 @@ footer ul li{
 .middle-right-text{
     position: absolute;
     bottom: 30px;
-    right: 43%;
+    left: 50%;
     font-size: 40px;
     background-color:black;
     padding: 10px;
@@ -230,8 +232,15 @@ footer ul li{
 .bottom-right-text{
   position: absolute;
   bottom: 30px;
-  right: 43%;
+  left: 50%;
   font-size: 40px;
   background-color:black;
   padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main, nav, header, section, aside, footer {
+    flex-shrink: 1;
+  }
 }
