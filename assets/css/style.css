@@ -241,6 +241,6 @@ footer ul li{
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main, nav, header, section, aside, footer {
-    flex-shrink: 1;
+    font-size: 20px;
   }
 }
