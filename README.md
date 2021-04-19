@@ -1,6 +1,6 @@
 # professional portfolio assignment 
 [github](https://github.com/Nparson88/portfolio)
 # first attempt at a professional portfolio for myself 
-[portfolio](file:///E:/Today/portfolio/Develop/index.html)
-![top of site](./2021-03-08.png)
-![bottom of site](./2021-03-08%20(1).png)
+[portfolio](https://nparson88.github.io/portfolio/)
+![top of site](./portfolio.png)
+![bottom of site](./portfolio2.png)
