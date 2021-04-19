@@ -124,14 +124,20 @@ aside{
   float: right;
   max-width: 80%;
 }
-.top-image{
+#project{
   max-width:75%;
   max-height: 75%;
 }
-.middle-image{
+#day-planner{
    display: inline-block;
   max-width: 37.3%;
   max-height: 50%;
+  padding: 10px;
+}
+#code-quiz{
+  display: inline-block;
+  max-width: 37.3%;
+  height: 40rem;
   padding: 10px;
 }
 .bottom-image{
@@ -239,8 +245,11 @@ footer ul li{
 }
 
 @media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
-  main, nav, header, section, aside, footer {
+  
+ .top-image-text, .middle-left-text, .middle-right-text,.bottom-right-text, .bottom-left-text {
     font-size: 20px;
+  }
+  .subtitle-text{
+    font-size: 30px;
   }
 }
