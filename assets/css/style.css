@@ -196,7 +196,7 @@ footer ul li{
     position: absolute;
     bottom: 50px;
     left: 30px;
-    font-size: 40px;
+    font-size: 30px;
     background-color:#534e55;
     padding: 10px;
 }
@@ -211,15 +211,15 @@ footer ul li{
     position: absolute;
     bottom: 30px;
     left: 30px;
-    font-size: 40px;
+    font-size: 30px;
     background-color:#534e55;
     padding: 10px;
 }
 .middle-right-text{
     position: absolute;
     bottom: 30px;
-    left: 50%;
-    font-size: 40px;
+    left: 40%;
+    font-size: 30px;
     background-color:#534e55;
     padding: 10px;
 }
@@ -231,22 +231,22 @@ footer ul li{
   position: absolute;
   bottom: 30px;
   left: 30px;
-  font-size: 40px;
+  font-size: 30px;
   background-color:#534e55;
   padding: 10px;
 }
 .bottom-right-text{
   position: absolute;
   bottom: 30px;
-  left: 50%;
-  font-size: 40px;
+  left: 40%;
+  font-size: 30px;
   background-color:#534e55;
   padding: 10px;
 }
 @media screen and (max-width: 1200px) {
   
   .top-image-text, .middle-left-text, .middle-right-text,.bottom-right-text, .bottom-left-text {
-     font-size: 25px;
+     font-size: 20px;
    }
    .subtitle-text{
      font-size: 60px;
@@ -255,7 +255,7 @@ footer ul li{
 @media screen and (max-width: 768px) {
   
  .top-image-text, .middle-left-text, .middle-right-text,.bottom-right-text, .bottom-left-text {
-    font-size: 20px;
+    font-size: 15px;
   }
   .subtitle-text{
     font-size: 30px;
