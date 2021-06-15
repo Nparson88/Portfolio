@@ -2,5 +2,6 @@
 [github](https://github.com/Nparson88/portfolio)
 # first attempt at a professional portfolio for myself 
 [portfolio](https://nparson88.github.io/portfolio/)
-![top of site](./portfolio.png)
-![bottom of site](./portfolio2.png)
+![top of site](./port1.png)
+![middle of site](./port3.png)
+![bottom of site](./port2.png)
